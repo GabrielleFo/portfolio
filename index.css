@@ -192,7 +192,7 @@ a {
   font-family: "Jost", sans-serif;
   transition: all 0.2s;
   outline: 2px solid transparent;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 ::-moz-focus-inner {
@@ -344,7 +344,7 @@ body:not(.user-is-tabbing) a:focus {
 .nav__items {
   display: flex;
   list-style: none;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .nav__item:not(:last-child) {
@@ -372,7 +372,7 @@ body:not(.user-is-tabbing) a:focus {
 .nav__link {
   position: relative;
   display: inline-block;
-  /* padding: 1rem 0; */
+  padding: 1rem 0;
   text-decoration: none;
   color: rgb(160, 148, 132);
   transition: all 0.2s;
